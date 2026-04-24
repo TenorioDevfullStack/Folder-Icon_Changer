@@ -1,0 +1,48 @@
+<svg width="1280" height="860" viewBox="0 0 1280 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="0.55" stop-color="#152238"/>
+      <stop offset="1" stop-color="#2C1F36"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="209" y1="151" x2="969" y2="733" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.55" stop-color="#7C6DE0"/>
+      <stop offset="1" stop-color="#FFB84D"/>
+    </linearGradient>
+    <filter id="soft" x="105" y="75" width="1070" height="730" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="34" stdDeviation="36" flood-color="#000000" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="860" fill="url(#bg)"/>
+  <path d="M1058 106C1104.94 163.951 1129.19 245.454 1112.73 322.326C1096.28 399.198 1039.12 471.438 966.878 506.769C894.634 542.1 807.305 540.523 730.434 501.216C653.562 461.91 587.148 384.874 589.514 310.265C591.88 235.657 663.027 163.476 745.157 119.693C827.286 75.9112 920.398 60.5266 982.492 67.5706C1044.59 74.6146 1011.06 48.0497 1058 106Z" fill="#22D3EE" fill-opacity="0.13"/>
+  <path d="M246.195 665.013C198.103 617.404 172.434 545.248 187.247 478.993C202.059 412.738 257.353 352.385 321.611 325.216C385.869 298.047 459.091 304.061 522.262 338.135C585.433 372.209 638.554 434.342 634.215 497.809C629.876 561.276 568.077 626.077 497.056 664.184C426.035 702.291 345.794 713.705 292.91 707.216C240.027 700.727 294.287 712.621 246.195 665.013Z" fill="#FFB84D" fill-opacity="0.12"/>
+  <g filter="url(#soft)">
+    <rect x="170" y="138" width="940" height="596" rx="28" fill="#0F1220"/>
+    <rect x="170" y="138" width="940" height="84" rx="28" fill="#1A1F31"/>
+    <rect x="170" y="194" width="940" height="28" fill="#1A1F31"/>
+    <circle cx="215" cy="180" r="10" fill="#F87171"/>
+    <circle cx="249" cy="180" r="10" fill="#FFB84D"/>
+    <circle cx="283" cy="180" r="10" fill="#4ADE80"/>
+    <text x="339" y="189" fill="#E8E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Folder Icon Changer</text>
+    <rect x="885" y="160" width="164" height="38" rx="19" fill="#242B3D"/>
+    <text x="921" y="185" fill="#A8B3CF" font-family="Segoe UI, Arial, sans-serif" font-size="16">Windows v1.0</text>
+    <rect x="226" y="272" width="828" height="56" rx="14" fill="#171C2B" stroke="#2F3954"/>
+    <text x="250" y="306" fill="#22D3EE" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">1. Selecione a Pasta</text>
+    <rect x="226" y="352" width="610" height="58" rx="10" fill="#20263A" stroke="#35405C"/>
+    <text x="253" y="388" fill="#8D99B6" font-family="Consolas, monospace" font-size="18">C:\Projetos\Fotos do Produto</text>
+    <rect x="858" y="352" width="196" height="58" rx="14" fill="#283149"/>
+    <text x="913" y="388" fill="#E8E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">Procurar</text>
+    <rect x="226" y="454" width="828" height="172" rx="18" fill="#171C2B" stroke="#2F3954"/>
+    <rect x="574" y="488" width="132" height="104" rx="18" fill="url(#accent)"/>
+    <path d="M597 525C597 519.477 601.477 515 607 515H632.308C636.086 515 639.544 517.134 641.236 520.512L645.972 529.972H674C679.523 529.972 684 534.449 684 539.972V574C684 579.523 679.523 584 674 584H607C601.477 584 597 579.523 597 574V525Z" fill="#F8FAFC" fill-opacity="0.9"/>
+    <path d="M614 568L627.5 553.5C629.399 551.461 632.626 551.509 634.464 553.604L642 562.194L648.295 555.545C650.112 553.627 653.192 553.679 654.943 555.657L666 568.143V574H614V568Z" fill="#14B8A6"/>
+    <circle cx="655" cy="541" r="6" fill="#FFB84D"/>
+    <rect x="226" y="658" width="210" height="58" rx="16" fill="#7C6DE0"/>
+    <text x="275" y="694" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Aplicar Ícone</text>
+    <rect x="460" y="658" width="222" height="58" rx="16" fill="#242B3D"/>
+    <text x="505" y="694" fill="#D7DCEB" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">Restaurar Padrão</text>
+    <rect x="842" y="658" width="212" height="58" rx="16" fill="#242B3D"/>
+    <text x="895" y="694" fill="#D7DCEB" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">Abrir Pasta</text>
+  </g>
+</svg>

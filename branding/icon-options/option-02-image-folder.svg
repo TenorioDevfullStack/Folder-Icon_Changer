@@ -1,0 +1,18 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="folder" x1="34" y1="48" x2="220" y2="208" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#24C6DC"/>
+      <stop offset="1" stop-color="#6D5DF2"/>
+    </linearGradient>
+    <linearGradient id="photo" x1="75" y1="89" x2="182" y2="179" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#CBD5E1"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="#090D14"/>
+  <path d="M34 80C34 67.85 43.85 58 56 58H96C102.63 58 108.87 61.15 112.8 66.5L120.5 77H200C212.15 77 222 86.85 222 99V181C222 193.15 212.15 203 200 203H56C43.85 203 34 193.15 34 181V80Z" fill="url(#folder)"/>
+  <rect x="68" y="91" width="120" height="94" rx="16" fill="url(#photo)"/>
+  <path d="M86 164L111.37 136.65C114.87 132.88 120.82 132.9 124.3 136.7L138.5 152.2L149.4 140.45C152.84 136.74 158.74 136.79 162.12 140.56L177 157.15V172H86V164Z" fill="#14B8A6"/>
+  <circle cx="158" cy="116" r="12" fill="#FFB84D"/>
+  <path d="M201 48L204.42 56.58L213 60L204.42 63.42L201 72L197.58 63.42L189 60L197.58 56.58L201 48Z" fill="#F8FAFC"/>
+</svg>

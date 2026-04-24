@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# PyInstaller build cache
+build/
+
+# Windows folder customization
+desktop.ini
+
+# Local release staging; the public ZIP stays in dist/
+release/
+
+# Generated executable duplicate; the release ZIP is the downloadable artifact
+dist/folder_icon_changer.exe
