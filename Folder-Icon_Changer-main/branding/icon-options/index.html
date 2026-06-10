@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Opções de ícone - Folder Icon Changer</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: #090d14;
+        color: #f8fafc;
+      }
+
+      body {
+        margin: 0;
+        padding: 48px;
+      }
+
+      h1 {
+        margin: 0 0 10px;
+        font-size: clamp(2rem, 5vw, 4rem);
+        line-height: 1;
+      }
+
+      p {
+        margin: 0;
+        color: #a8b3cf;
+        line-height: 1.6;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+        gap: 18px;
+        margin-top: 34px;
+      }
+
+      article {
+        padding: 22px;
+        border: 1px solid #2c3a50;
+        border-radius: 8px;
+        background: #101827;
+      }
+
+      img {
+        display: block;
+        width: 132px;
+        height: 132px;
+        margin-bottom: 22px;
+      }
+
+      h2 {
+        margin: 0 0 8px;
+        font-size: 1.05rem;
+      }
+
+      code {
+        color: #24c6dc;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Opções de ícone</h1>
+    <p>Escolha uma direção visual. Depois eu converto a opção escolhida para <code>.ico</code>, aplico no app e refaço o ZIP.</p>
+    <section class="grid">
+      <article>
+        <img src="option-01-folder-spark.svg" alt="Opção 1">
+        <h2>01 - Pasta com brilho</h2>
+        <p>Mais próxima da logo atual. Fica amigável e comunica personalização.</p>
+      </article>
+      <article>
+        <img src="option-02-image-folder.svg" alt="Opção 2">
+        <h2>02 - Pasta + imagem</h2>
+        <p>A mais literal: mostra que o app transforma imagens em ícones de pasta.</p>
+      </article>
+      <article>
+        <img src="option-03-ids-monogram.svg" alt="Opção 3">
+        <h2>03 - Monograma IDS</h2>
+        <p>Mais institucional, bom se você quiser reforçar a marca da IntelligentDevSolutions.</p>
+      </article>
+      <article>
+        <img src="option-04-windows-tile.svg" alt="Opção 4">
+        <h2>04 - Tile Windows</h2>
+        <p>Visual de utilitário desktop, forte em tamanho pequeno na barra de tarefas.</p>
+      </article>
+      <article>
+        <img src="option-05-minimal-folder.svg" alt="Opção 5">
+        <h2>05 - Pasta minimal</h2>
+        <p>Simples, limpo e bem legível quando o ícone aparece pequeno.</p>
+      </article>
+    </section>
+  </body>
+</html>
